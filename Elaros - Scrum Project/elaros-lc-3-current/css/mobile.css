@@ -1,0 +1,17 @@
+.lines {
+    float: right;
+    cursor: pointer;
+}
+
+.line1,
+.line2,
+.line3 {
+    width: 24px;
+    height: 4px;
+    margin: 6px 0;
+    background-color: #000;
+}
+
+.burger {
+    display: none;
+}

@@ -1,0 +1,66 @@
+.sticky-header {
+    position: fixed;
+    box-shadow: 0px 6px 0px 0px #272463;
+    width: 100%;
+    z-index: 42;
+    background-color: white;
+}
+
+#mainbox {
+    display: inline-block;
+    position: relative;
+    margin: 20px 40px 20px 5px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all .6s;
+    z-index: 52;
+}
+
+.sidemenu {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 0px;
+    background: #243f81;
+    z-index: 60;
+    padding-top: 100px;
+    overflow-x: hidden;
+    font-family: sans-serif;
+    transition: all .5s;
+}
+
+.sidemenu a {
+    padding: 8px 8px 8px 64px;
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    display: block;
+}
+
+.sidemenu a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.sidemenu .closebtn {
+    position: absolute;
+    top: 0px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 32px;
+}
+
+.header-logo {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-family: 'Noto Serif', serif;
+    font-size: 25px;
+    padding-right: 5px;
+}
+
+.header-logo a:hover {
+    color: red;
+}
